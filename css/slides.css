@@ -1,0 +1,74 @@
+/* line 13, ../sass/slides.scss */
+html, body {
+  min-height: 100%;
+}
+
+/* line 14, ../sass/slides.scss */
+html {
+  background-color: #cccccc;
+  background-repeat: repeat-x;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #cccccc));
+  background-image: -webkit-linear-gradient(top, #ffffff, #cccccc);
+  background-image: -moz-linear-gradient(top, #ffffff, #cccccc);
+  background-image: -o-linear-gradient(top, #ffffff, #cccccc);
+  background-image: -ms-linear-gradient(top, #ffffff, #cccccc);
+  background-image: linear-gradient(top, #ffffff, #cccccc);
+}
+
+/* line 20, ../sass/slides.scss */
+body {
+  background: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(45%, rgba(0, 0, 0, 0)), color-stop(45%, #cccccc), color-stop(55%, #cccccc), color-stop(55%, rgba(0, 0, 0, 0)));
+  background: -webkit-linear-gradient(left top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 45%, #cccccc 45%, #cccccc 55%, rgba(0, 0, 0, 0) 55%);
+  background: -moz-linear-gradient(left top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 45%, #cccccc 45%, #cccccc 55%, rgba(0, 0, 0, 0) 55%);
+  background: -o-linear-gradient(left top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 45%, #cccccc 45%, #cccccc 55%, rgba(0, 0, 0, 0) 55%);
+  background: -ms-linear-gradient(left top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 45%, #cccccc 45%, #cccccc 55%, rgba(0, 0, 0, 0) 55%);
+  background: linear-gradient(left top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 45%, #cccccc 45%, #cccccc 55%, rgba(0, 0, 0, 0) 55%);
+  background-size: 5px 5px;
+  font-size: 36px;
+}
+
+/* line 36, ../sass/slides.scss */
+.blue {
+  color: #486790;
+}
+
+/* line 40, ../sass/slides.scss */
+.green {
+  color: #a1b749;
+}
+
+/* line 42, ../sass/slides.scss */
+h1, h2, h3, h4, h5 {
+  font-family: Lora, serif;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1;
+  margin: 0;
+}
+
+/* line 50, ../sass/slides.scss */
+.chunky {
+  font-family: "Lilita One", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 56, ../sass/slides.scss */
+.step {
+  width: 900px;
+  padding: 40px;
+}
+
+/* line 61, ../sass/slides.scss */
+.step {
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -ms-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+/* line 69, ../sass/slides.scss */
+.step:not(.active) {
+  opacity: 0.3;
+}

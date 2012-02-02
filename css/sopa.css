@@ -1,0 +1,152 @@
+/* line 11, ../sass/sopa.scss */
+a {
+  color: #486790;
+}
+
+/* line 15, ../sass/sopa.scss */
+.step-date-blackout .step:not(.active) {
+  opacity: 0;
+}
+
+/* line 16, ../sass/sopa.scss */
+.step-overview .step {
+  opacity: 1;
+}
+
+/* line 18, ../sass/sopa.scss */
+#date-blackout {
+  text-align: center;
+}
+/* line 20, ../sass/sopa.scss */
+#date-blackout #jan-18 {
+  font-size: 44px;
+}
+/* line 21, ../sass/sopa.scss */
+#date-blackout #twenty-twelve {
+  font-size: 108px;
+}
+/* line 24, ../sass/sopa.scss */
+#date-blackout #black, #date-blackout #out {
+  text-transform: uppercase;
+  font-size: 74px;
+}
+/* line 28, ../sass/sopa.scss */
+#date-blackout #out {
+  font-size: 118px;
+}
+
+/* line 33, ../sass/sopa.scss */
+#freakout, #largest, #sopa-description, #pipa-description {
+  width: 600px;
+}
+
+/* line 37, ../sass/sopa.scss */
+#social-media {
+  background: url(../img/social-media.png) center no-repeat;
+  line-height: 650px;
+  width: 600px;
+  height: 600px;
+  text-align: center;
+}
+/* line 44, ../sass/sopa.scss */
+#social-media div {
+  display: inline-block;
+  line-height: 1;
+  padding: 20px;
+  background: #19293f;
+  border-radius: 10px;
+  color: #fff;
+}
+
+/* line 54, ../sass/sopa.scss */
+#pipa-description span {
+  font-family: sans-serif;
+  position: relative;
+}
+/* line 57, ../sass/sopa.scss */
+#pipa-description span:before {
+  content: '~';
+  position: absolute;
+  left: 0;
+  top: -10px;
+}
+
+/* line 66, ../sass/sopa.scss */
+#bieber {
+  z-index: 10;
+}
+
+/* line 67, ../sass/sopa.scss */
+.step-bieber #bieber-crossout {
+  opacity: 0;
+}
+
+/* line 68, ../sass/sopa.scss */
+#bieber-crossout {
+  width: 400px;
+  height: 400px;
+  border: 100px solid red;
+  border-radius: 400px;
+  background: transparent;
+}
+/* line 76, ../sass/sopa.scss */
+#bieber-crossout:after {
+  -webkit-transform: rotate(45deg);
+  content: '';
+  display: block;
+  width: 100px;
+  height: 500px;
+  background: red;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -50px;
+}
+
+/* line 91, ../sass/sopa.scss */
+#blackout .photo {
+  width: 700px;
+}
+
+/* line 97, ../sass/sopa.scss */
+#reddit-godaddy h1 small {
+  font-size: 24px;
+}
+
+/* line 101, ../sass/sopa.scss */
+#reddit-godaddy-2 h1, #reddit-godaddy-2 h2 {
+  text-align: center;
+}
+/* line 104, ../sass/sopa.scss */
+#reddit-godaddy-2 #domains-lost {
+  font-size: 150px;
+}
+/* line 107, ../sass/sopa.scss */
+#reddit-godaddy-2 blockquote {
+  font-style: italic;
+}
+
+/* line 111, ../sass/sopa.scss */
+.photo {
+  border: 10px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  display: block;
+  margin: auto;
+  background: #fff;
+}
+/* line 117, ../sass/sopa.scss */
+.photo img {
+  display: block;
+  margin: auto;
+}
+
+/* line 122, ../sass/sopa.scss */
+figure figcaption {
+  font-size: 24px;
+  text-align: center;
+}
+
+/* line 128, ../sass/sopa.scss */
+#freakout .photo, #blackout .photo {
+  margin: 0;
+}
